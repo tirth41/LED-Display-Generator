@@ -1,0 +1,56 @@
+/* Container */
+.dropdown-container {
+    position: relative;
+    width: 250px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Input-like Dropdown Button */
+  .dropdown-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    background-color: rgba(221, 219, 219, 0.623);
+    cursor: pointer;
+    text-align: left;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+  }
+  
+  .dropdown-input:hover {
+    border-color: #007bff;
+  }
+  
+  /* Dropdown Menu */
+  .dropdown-menu {
+    position: absolute;
+    top: 100%; /* Ensures the dropdown is directly below the input */
+    left: 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+  }
+  
+  /* Dropdown Option */
+  .dropdown-option {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .dropdown-option:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Add Selected Option Highlight (Optional) */
+  .dropdown-option:active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  

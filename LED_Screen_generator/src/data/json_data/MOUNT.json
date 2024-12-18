@@ -1,0 +1,92 @@
+[
+ {
+  "MFG. PART":"MPT-L65UA",
+  "Brand":"Mustang",
+  "Maximum Load (lbs)":200,
+  "VESA's":"75 x75,100 x 100,200 x 100,200 x 200,300 x 200,300 x 300,400 x 200,400 x 300,400 x 400,600 x 400,600 x 200",
+  "Width (in)":27.41,
+  "Height (in)":20.57,
+  "Depth (in)":2.2,
+  "Clearance needed around screen":4
+ },
+ {
+  "MFG. PART":"MPF-X106UA",
+  "Brand":"Mustang",
+  "Maximum Load (lbs)":300,
+  "VESA's":"75 x75,100 x 100,200 x 100,200 x 200,300 x 200,300 x 300,400 x 200,400 x 300,400 x 400,600 x 200,600 x 400,800 x 400,1096 x 601",
+  "Width (in)":45.0,
+  "Height (in)":24.5,
+  "Depth (in)":1.4,
+  "Clearance needed around screen":6
+ },
+ {
+  "MFG. PART":"MPF-L65UA",
+  "Brand":"Mustang",
+  "Maximum Load (lbs)":200,
+  "VESA's":"75 x75,100 x 100,200 x 100,200 x 200,300 x 200,300 x 300,400 x 200,400 x 300,400 x 400,600 x 200,600 x 400",
+  "Width (in)":27.37,
+  "Height (in)":20.5,
+  "Depth (in)":1.4,
+  "Clearance needed around screen":4
+ },
+ {
+  "MFG. PART":"MPF-X85UA",
+  "Brand":"Mustang",
+  "Maximum Load (lbs)":200,
+  "VESA's":"832 x 601",
+  "Width (in)":34.5,
+  "Height (in)":20.5,
+  "Depth (in)":1.4,
+  "Clearance needed around screen":4
+ },
+ {
+  "MFG. PART":"XSM1U",
+  "Brand":"Chief",
+  "Maximum Load (lbs)":250,
+  "VESA's":null,
+  "Width (in)":42.75,
+  "Height (in)":26.3,
+  "Depth (in)":2.25,
+  "Clearance needed around screen":6
+ },
+ {
+  "MFG. PART":"STS650",
+  "Brand":"Peerless",
+  "Maximum Load (lbs)":200,
+  "VESA's":"400 x 400,600 x 400,600 x 600",
+  "Width (in)":28.84,
+  "Height (in)":26.9,
+  "Depth (in)":3.82,
+  "Clearance needed around screen":1
+ },
+ {
+  "MFG. PART":"KITXWXSM1UP",
+  "Brand":"Chief",
+  "Maximum Load (lbs)":250,
+  "VESA's":"100 x 600 ,891 x 1500",
+  "Width (in)":34.75,
+  "Height (in)":60.5,
+  "Depth (in)":2.25,
+  "Clearance needed around screen":6
+ },
+ {
+  "MFG. PART":"PSMH2079",
+  "Brand":"Chief",
+  "Maximum Load (lbs)":350,
+  "VESA's":null,
+  "Width (in)":54.36,
+  "Height (in)":26.0,
+  "Depth (in)":2.64,
+  "Clearance needed around screen":5
+ },
+ {
+  "MFG. PART":"RLXT3",
+  "Brand":"Chief",
+  "Maximum Load (lbs)":350,
+  "VESA's":null,
+  "Width (in)":38.0,
+  "Height (in)":19.18,
+  "Depth (in)":2.67,
+  "Clearance needed around screen":1
+ }
+]

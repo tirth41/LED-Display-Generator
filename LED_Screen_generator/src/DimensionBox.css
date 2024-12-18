@@ -1,0 +1,58 @@
+/* Container Styling */
+.dimensions-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Individual Box */
+  .dimension-box {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    width: 250px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dimension-title {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  /* Row Styling */
+  .dimension-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.75rem;
+    padding: 0.3rem;
+    border-radius: 4px;
+  }
+  
+  /* Left Side Label */
+  .dimension-label {
+    background-color: #999;
+    color: #fff;
+    padding: 0.3rem 0.5rem;
+    border-radius: 4px 0 0 4px;
+    font-size: 0.9rem;
+    width: 50%;
+    text-align: center;
+    pointer-events: none;
+  }
+  
+  /* Right Side Value */
+  .dimension-value {
+    background-color: #fff;
+    color: #333;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0 4px 4px 0;
+    font-size: 0.9rem;
+    width: 50%;
+    text-align: center;
+    border: 1px solid #ddd;
+    pointer-events: none;
+  }
+  

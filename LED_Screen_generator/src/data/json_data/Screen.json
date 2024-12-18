@@ -1,0 +1,335 @@
+[
+ {
+  "Screen MFR":"LH43QMBTBGCXZA",
+  "Make":"Samsung",
+  "Screen Size":43,
+  "Height":23.01,
+  "Width":38.83,
+  "Depth":2.23,
+  "Weight (LBS)":31.97
+ },
+ {
+  "Screen MFR":"10BDL4151T",
+  "Make":"Philips",
+  "Screen Size":10,
+  "Height":6.58,
+  "Width":10.28,
+  "Depth":1.14,
+  "Weight (LBS)":1.57
+ },
+ {
+  "Screen MFR":"LH55WMRWBGCXZA",
+  "Make":"Samsung",
+  "Screen Size":55,
+  "Height":31.7,
+  "Width":51.3,
+  "Depth":2.0,
+  "Weight (LBS)":63.71
+ },
+ {
+  "Screen MFR":"LH55QMBTBGCXZA",
+  "Make":"Samsung",
+  "Screen Size":55,
+  "Height":28.92,
+  "Width":49.36,
+  "Depth":2.23,
+  "Weight (LBS)":59.3
+ },
+ {
+  "Screen MFR":"BH65T",
+  "Make":"Samsung",
+  "Screen Size":65,
+  "Height":33.51,
+  "Width":57.73,
+  "Depth":2.35,
+  "Weight (LBS)":81.8
+ },
+ {
+  "Screen MFR":"43TNF5J",
+  "Make":"LG",
+  "Screen Size":43,
+  "Height":22.01,
+  "Width":38.08,
+  "Depth":1.5,
+  "Weight (LBS)":null
+ },
+ {
+  "Screen MFR":"75UH5J-H",
+  "Make":"LG",
+  "Screen Size":75,
+  "Height":37.81,
+  "Width":66.25,
+  "Depth":2.5,
+  "Weight (LBS)":51.2
+ },
+ {
+  "Screen MFR":"43HT3WJ-B",
+  "Make":"LG",
+  "Screen Size":43,
+  "Height":23.85,
+  "Width":38.31,
+  "Depth":1.94,
+  "Weight (LBS)":null
+ },
+ {
+  "Screen MFR":"55TNF5J",
+  "Make":"LG",
+  "Screen Size":55,
+  "Height":28.0,
+  "Width":48.5,
+  "Depth":1.54,
+  "Weight (LBS)":16.8
+ },
+ {
+  "Screen MFR":"55CT5WJ",
+  "Make":"LG",
+  "Screen Size":55,
+  "Height":30.3,
+  "Width":49.8,
+  "Depth":2.43,
+  "Weight (LBS)":57.32
+ },
+ {
+  "Screen MFR":"98UM5J-B",
+  "Make":"LG",
+  "Screen Size":98,
+  "Height":49.33,
+  "Width":86.54,
+  "Depth":3.13,
+  "Weight (LBS)":78.0
+ },
+ {
+  "Screen MFR":"110UM5J-B",
+  "Make":"LG",
+  "Screen Size":110,
+  "Height":55.43,
+  "Width":97.4,
+  "Depth":3.9,
+  "Weight (LBS)":242.51
+ },
+ {
+  "Screen MFR":"98UM5K",
+  "Make":"LG",
+  "Screen Size":98,
+  "Height":49.3,
+  "Width":86.5,
+  "Depth":3.13,
+  "Weight (LBS)":78.0
+ },
+ {
+  "Screen MFR":"65UH5J-H",
+  "Make":"LG",
+  "Screen Size":65,
+  "Height":33.23,
+  "Width":57.22,
+  "Depth":1.57,
+  "Weight (LBS)":28.2
+ },
+ {
+  "Screen MFR":"75UH5J-H",
+  "Make":"LG",
+  "Screen Size":75,
+  "Height":37.81,
+  "Width":66.24,
+  "Depth":2.28,
+  "Weight (LBS)":41.5
+ },
+ {
+  "Screen MFR":"75UH5J-M",
+  "Make":"LG",
+  "Screen Size":75,
+  "Height":37.81,
+  "Width":66.24,
+  "Depth":2.28,
+  "Weight (LBS)":41.5
+ },
+ {
+  "Screen MFR":"86UH5J-H",
+  "Make":"LG",
+  "Screen Size":86,
+  "Height":43.19,
+  "Width":75.83,
+  "Depth":2.39,
+  "Weight (LBS)":49.0
+ },
+ {
+  "Screen MFR":"98UH5J-H",
+  "Make":"LG",
+  "Screen Size":98,
+  "Height":49.09,
+  "Width":86.29,
+  "Depth":3.3,
+  "Weight (LBS)":81.1
+ },
+ {
+  "Screen MFR":"65BDL3652T\/00",
+  "Make":"Philips",
+  "Screen Size":65,
+  "Height":34.23,
+  "Width":58.83,
+  "Depth":3.16,
+  "Weight (LBS)":null
+ },
+ {
+  "Screen MFR":"86BDL3652T\/00",
+  "Make":"Philips",
+  "Screen Size":86,
+  "Height":44.58,
+  "Width":77.2,
+  "Depth":3.17,
+  "Weight (LBS)":163.8
+ },
+ {
+  "Screen MFR":"86BDL4152T\/00",
+  "Make":"Philips",
+  "Screen Size":86,
+  "Height":44.4,
+  "Width":77.05,
+  "Depth":4.13,
+  "Weight (LBS)":212.1
+ },
+ {
+  "Screen MFR":"55BDL3452T\/00",
+  "Make":"Philips",
+  "Screen Size":55,
+  "Height":29.27,
+  "Width":50.1,
+  "Depth":2.97,
+  "Weight (LBS)":null
+ },
+ {
+  "Screen MFR":"75BDL3652T\/00",
+  "Make":"Philips",
+  "Screen Size":75,
+  "Height":39.12,
+  "Width":67.54,
+  "Depth":3.18,
+  "Weight (LBS)":116.85
+ },
+ {
+  "Screen MFR":"TH-50CQ1U",
+  "Make":"Panasonic",
+  "Screen Size":50,
+  "Height":25.7,
+  "Width":44.3,
+  "Depth":3.1,
+  "Weight (LBS)":37.5
+ },
+ {
+  "Screen MFR":"E914767",
+  "Make":"Elo",
+  "Screen Size":65,
+  "Height":34.08,
+  "Width":58.69,
+  "Depth":3.17,
+  "Weight (LBS)":111.14
+ },
+ {
+  "Screen MFR":"E666224",
+  "Make":"Elo",
+  "Screen Size":50,
+  "Height":26.88,
+  "Width":45.75,
+  "Depth":2.83,
+  "Weight (LBS)":31.68
+ },
+ {
+  "Screen MFR":"M1-650DS-A1",
+  "Make":"MicroTouch",
+  "Screen Size":65,
+  "Height":33.77,
+  "Width":58.39,
+  "Depth":3.11,
+  "Weight (LBS)":112.88
+ },
+ {
+  "Screen MFR":"URP65-T",
+  "Make":"Planar",
+  "Screen Size":65,
+  "Height":33.8,
+  "Width":58.4,
+  "Depth":2.8,
+  "Weight (LBS)":110.2
+ },
+ {
+  "Screen MFR":"URP98-ERO-T",
+  "Make":"Planar",
+  "Screen Size":98,
+  "Height":50.3,
+  "Width":87.5,
+  "Depth":3.9,
+  "Weight (LBS)":278.0
+ },
+ {
+  "Screen MFR":"TM-65-FX",
+  "Make":"Team Board",
+  "Screen Size":65,
+  "Height":33.6,
+  "Width":58.14,
+  "Depth":3.24,
+  "Weight (LBS)":null
+ },
+ {
+  "Screen MFR":"LSCB018-RK-163",
+  "Make":"LG",
+  "Screen Size":163,
+  "Height":79.75,
+  "Width":141.8,
+  "Depth":1.62,
+  "Weight (LBS)":null
+ },
+ {
+  "Screen MFR":"32TNF5J-B",
+  "Make":"LG",
+  "Screen Size":32,
+  "Height":419.4,
+  "Width":723.0,
+  "Depth":39.1,
+  "Weight (LBS)":5.6
+ },
+ {
+  "Screen MFR":"49XS4J-B",
+  "Make":"LG",
+  "Screen Size":49,
+  "Height":24.66,
+  "Width":43.02,
+  "Depth":3.29,
+  "Weight (LBS)":45.9
+ },
+ {
+  "Screen MFR":"55XS4J-B",
+  "Make":"LG",
+  "Screen Size":55,
+  "Height":27.93,
+  "Width":48.64,
+  "Depth":3.36,
+  "Weight (LBS)":57.32
+ },
+ {
+  "Screen MFR":"49XE4F-M",
+  "Make":"LG",
+  "Screen Size":49,
+  "Height":25.8,
+  "Width":45.4,
+  "Depth":3.46,
+  "Weight (LBS)":70.5
+ },
+ {
+  "Screen MFR":"TD3207",
+  "Make":"Viewsonic",
+  "Screen Size":32,
+  "Height":17.76,
+  "Width":29.41,
+  "Depth":2.52,
+  "Weight (LBS)":12.8
+ },
+ {
+  "Screen MFR":"Test",
+  "Make":"LG",
+  "Screen Size":163,
+  "Height":79.75,
+  "Width":141.8,
+  "Depth":1.62,
+  "Weight (LBS)":null
+ }
+]
