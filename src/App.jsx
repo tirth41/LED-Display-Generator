@@ -45,11 +45,28 @@ function App() {
   } 
 
   useEffect(() => {
-
-  
   }, []);
 
-
+  const disableNicheAlignment =()=>{
+    if (alignment =="Niche"){
+      return <div className="dimension-box">
+        <h3 className="dimension-title">Niche Dimensions:</h3>
+        <div className="dimension-row">
+          <div className="dimension-label">Height</div>
+          <div className="dimension-value">{screenDimension.height + (screenDimension.height  <= 55 ? 3 : 4)}"</div>
+        </div>
+        <div className="dimension-row">
+          <div className="dimension-label">Width</div>
+          <div className="dimension-value">{screenDimension.width + (screenDimension.width <= 55 ? 3 : 4)}"</div>
+        </div>
+        <div className="dimension-row">
+          <div className="dimension-label">Depth</div>
+          <div className="dimension-value">{screenDimension.depth + Math.max(mediaDepth, mountDepth) + 0.3}"</div>
+        </div>
+      </div>
+      
+    }
+  }
   return(
     <div className='container' ref={containerRef}> 
       <div className='header'>
@@ -61,25 +78,13 @@ function App() {
         screenHeight={screenDimension.height} screenWidth={screenDimension.width}
         nicheHeight = {screenDimension.height + (screenDimension.height  <= 55 ? 3 : 4)}
         nicheWidth = {screenDimension.width + (screenDimension.width <= 55 ? 3 : 4)}
+        alignment = {alignment == "Niche"?1:0}
        />
+          
           <div className="dimensions-container">
             {/* Niche Dimensions */}
-            <div className="dimension-box">
-              <h3 className="dimension-title">Niche Dimensions:</h3>
-              <div className="dimension-row">
-                <div className="dimension-label">Height</div>
-                <div className="dimension-value">{screenDimension.height + (screenDimension.height  <= 55 ? 3 : 4)}"</div>
-              </div>
-              <div className="dimension-row">
-                <div className="dimension-label">Width</div>
-                <div className="dimension-value">{screenDimension.width + (screenDimension.width <= 55 ? 3 : 4)}"</div>
-              </div>
-              <div className="dimension-row">
-                <div className="dimension-label">Depth</div>
-                <div className="dimension-value">{screenDimension.depth + Math.max(mediaDepth, mountDepth) + nicheDepthVar}"</div>
-              </div>
-            </div>
-
+            {disableNicheAlignment()}
+          
             {/* Screen Dimensions */}
             <div className="dimension-box">
               <h3 className="dimension-title">Screen Dimensions:</h3>

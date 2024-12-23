@@ -46,10 +46,11 @@
         ctx.clearRect(0, 0, canvasWidth, canvasHeight);
     
         // Draw Outer Box (Thick Border)
+        if(props.alignment){
         ctx.lineWidth = 2;
         ctx.strokeStyle = "#000";
         ctx.strokeRect(outerX, outerY, outerWidth, outerHeight);
-    
+        }
         // Draw Inner Box (Thin Border)
         ctx.lineWidth = 5;
         ctx.strokeRect(innerX, innerY, innerWidth, innerHeight);
@@ -85,7 +86,8 @@
         ctx.moveTo(innerX + innerWidth, outerY - 25); // Right tick mark
         ctx.lineTo(innerX + innerWidth, outerY - 15);
         ctx.stroke();
-    
+        
+        if(props.alignment){
         // Left Vertical Dimension
         ctx.beginPath();
         ctx.moveTo(outerX - 20, outerY);
@@ -95,7 +97,8 @@
         ctx.moveTo(outerX - 25, outerY + outerHeight);
         ctx.lineTo(outerX - 15, outerY + outerHeight);
         ctx.stroke();
-    
+        }
+        if(props.alignment){
         // Bottom Horizontal Dimension
         ctx.beginPath();
         ctx.moveTo(outerX, outerY + outerHeight + 20);
@@ -105,7 +108,10 @@
         ctx.moveTo(outerX + outerWidth, outerY + outerHeight + 25);
         ctx.lineTo(outerX + outerWidth, outerY + outerHeight + 15);
         ctx.stroke();
-    
+        }
+        
+
+        
         // Right Vertical Dimension
         ctx.beginPath();
         ctx.moveTo(outerX + outerWidth + 20, innerY); // Start from inner rectangle's top edge
@@ -115,7 +121,7 @@
         ctx.moveTo(outerX + outerWidth + 25, innerY + innerHeight); // Bottom tick mark
         ctx.lineTo(outerX + outerWidth + 15, innerY + innerHeight);
         ctx.stroke();
-    
+        
         //Bottom floor line
         ctx.beginPath();
         const floorLineY = outerY + outerHeight + 150; // Position further below the outer box
@@ -175,8 +181,8 @@
         ctx.font = "14px Arial";
         ctx.fillStyle = "#000";
         ctx.fillText(props.rotation?props.screenWidth:props.screenHeight, outerX + outerWidth / 2 - 40, outerY - 30); // Top label
-        ctx.fillText(props.rotation?props.nicheHeight:props.nicheWidth, outerX - 60, outerY + outerHeight / 2 + 35); // Left label
-        ctx.fillText(props.rotation?props.nicheWidth:props.nicheHeight, outerX + outerWidth / 2 - 40, outerY + outerHeight + 35); // Bottom label
+        if(props.alignment){ctx.fillText(props.rotation?props.nicheHeight:props.nicheWidth, outerX - 60, outerY + outerHeight / 2 + 35);} // Left label
+        if(props.alignment){ctx.fillText(props.rotation?props.nicheWidth:props.nicheHeight, outerX + outerWidth / 2 - 40, outerY + outerHeight + 35);} // Bottom label
         ctx.fillText(props.rotation?props.screenHeight:props.screenWidth, outerX + outerWidth + 35, outerY + outerHeight / 2 - 20 ); // Right label
         ctx.fillText("Floor Line", outerX + outerWidth / 2 - 30, floorLineY + 15);
         ctx.fillText("50", outerX + outerWidth / 2 - 380, floorLineY - 55);
@@ -187,7 +193,8 @@
         props.innerHeight,
         props.screenWidth,
         props.screenHeight,
-    props.rotation]);
+        props.rotation,
+        props.alignment]);
 
     return <canvas ref={canvasRef} height={1000} width={800} />
   }
